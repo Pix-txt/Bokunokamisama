@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <link href="bokunokamisama.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <h1>Rock, Paper, Scissors</h1>
+        <div id="twosections">
+            
+
+            <div id="twosectionsbutdifferent">
+
+                <div>
+
+                    <div>
+                        <button id="rock" onclick="playmove('rock')">Rock</button>
+                    </div>
+
+                    <div>
+                        <button id="paper" onclick="playmove('paper')">Paper</button>
+                    </div>
+
+                    <div>
+                        <button id="scissors" onclick="playmove('scissors')">Scissors</button>
+                    </div>
+                </div>
+
+                <div>
+                    <span id="youhand"><img src="images\paperhands.png" alt="openhands"></span>
+                </div>
+
+            </div>
+
+            <div id="twosectionsbutdifferent">
+                <span id="opphand"><img src="images\paperhands.png" alt="openhands"></span>
+            </div>
+
+        </div>
+
+        <button id="play" onclick="roundstart()">PLAY MOVE</button>
+        <p id="roundwins"></p>
+
+        <p id="score">Score: Player 1: <span id='yourscore'>0</span> Player 2: <span id='oppscore'>0</span></p>
+
+        <script src="bokunokamisama.js"></script>
+    </body>
+</html>

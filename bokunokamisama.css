@@ -1,0 +1,101 @@
+body{
+    background-image: linear-gradient(rgb(245, 184, 72), rgb(243, 247, 39));
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 10, 49);
+}
+
+#twosections{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    gap:5%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#twosections div{
+    width: 50%;
+}
+
+#twosectionsbutdifferent{
+    display:flex;
+    flex-direction: row;
+    width: 45%;
+    background-color: rgb(81, 138, 192);
+    height: 25vh;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+#play{
+    border-radius: 5%;
+    margin-top: 2vh;
+    font-size: large;
+    border-width: 0px;
+    background-color: rgb(81, 138, 192);
+    color: aliceblue;
+    padding: 1vh;
+    font-weight: bold;
+    margin-left: 46vw;
+    bottom: 0px;
+    position: relative;
+    transition: 1s ease bottom, 1s ease background-color;
+}
+
+#twosectionsbutdifferent button{
+    border-radius: 5%;
+    font-size: large;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    width: 7vw;
+    height: 5vh;
+    border-width: 0px;
+    background-color: rgb(230, 243, 255);
+    padding: 1vh;
+    font-weight: bold;
+    bottom: 0px;
+    position: relative;
+    transition: 1s ease bottom, 1s ease background-color;
+}
+
+#twosectionsbutdifferent button:hover{
+    background-color: rgb(180, 188, 212);
+    bottom: 2px;
+}
+
+#play:hover{
+    background-color: rgb(75, 86, 145);
+    bottom: 2px;
+}
+
+#roundwins{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+#twosectionsbutdifferent img{
+    height: 20vh;
+    width: fit-content;
+    margin-top: 2vh;
+}
+
+#opphand{
+    margin-left: 2vw;
+}
+
+#score{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    bottom: 0px;
+    position: fixed;
+}

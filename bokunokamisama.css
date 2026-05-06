@@ -13,7 +13,6 @@ body{
     text-align: center;
     justify-items: center;
     align-items: center;
-    border-radius: 5%;
 }
 
 #twosections div{
@@ -26,6 +25,7 @@ body{
     width: 45%;
     background-color: rgb(81, 138, 192);
     height: 25vh;
+    border-radius: 2vw;
 }
 
 h1{

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phone in the book... wait say that again?></title>
+        <link href="adipocere.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="twoparts">
+            <div id="parts">
+                <form id="submitphonenumber">
+                    <h1>Enter a phone number</h1>
+                    <label for="firstname">Enter your first name </label>
+                    <input type="text" id="firstname" name="firstname"><br><br>
+                    <label for="lastname">Enter your last name </label>
+                    <input type="text" id="lastname" name="lastname"><br><br>
+                    <label for='phonenumber'>Enter your phone number</label>
+                    <input type="tel" id="phonenumber" name="phonenumber"><br><br>
+                    <button id="submitnewentry" onclick="submitNewEntry()" type="button">Submit</button>
+                </form>
+            </div>
+            <div id="parts">
+                <h1>Phone number list</h1>
+                <span id="Phonelist">(blank)</span>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div id="Search">
+            <form id="searchFunction">
+                <label for="searchNumbr">Search with phone number: </label>
+                <input type="tel" id="searchNumbr" name="searchNumbr">
+                <button id="Searchnum" type="button" onclick="searchNumber()">Search</button><br><br>
+
+                <label for="searchN">Search with name: </label>
+                <input type="text" id="searchN" name="searchN">
+                <button id="Searchnam" type="button" onclick="searchName()">Search</button><br><br>
+            </form>
+            
+            <span id="results"></span>
+        </div>
+
+        <script src="adipocere.js"></script>
+    </body>
+</html>
+

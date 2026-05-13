@@ -69,7 +69,8 @@ function searchName(){
     searchNam = document.getElementById('searchFunction').elements[2].value;
 
     for(let y in numberList){
-        if(searchNam == numberList[y].firstName || searchNam == numberList[y].lastName || searchNam == numberList[y].fullName()){
+        m = numberList[y].fullName();
+        if(searchNam.toLowerCase() == numberList[y].firstName.toLowerCase() || searchNam.toLowerCase() == numberList[y].lastName.toLowerCase() || searchNam.toLowerCase() == m.toLowerCase()){
             searchresults = "Person's phone number is "+ numberList[y].phoneNumber
         }
     }

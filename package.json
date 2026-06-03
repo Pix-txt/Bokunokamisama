@@ -1,0 +1,24 @@
+{
+  "name": "bokunokamisama",
+  "version": "1.0.0",
+  "description": "I'll forgive you even if you die - Kikuo",
+  "homepage": "https://github.com/Pix-txt/Bokunokamisama#readme",
+  "bugs": {
+    "url": "https://github.com/Pix-txt/Bokunokamisama/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pix-txt/Bokunokamisama.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Chippix",
+  "type": "commonjs",
+  "main": "adipocere.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
